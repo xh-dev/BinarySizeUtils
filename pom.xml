@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>bom-common</artifactId>
+    <groupId>dev.xethh.libs.toolkits</groupId>
+    <version>1.0.4</version>
+  </parent>
+
+  <groupId>dev.xethh.utils</groupId>
+  <artifactId>BinarySizeUtils</artifactId>
+  <version>1.0.0</version>
+
+  <name>BinarySizeUtils</name>
+
+  <url>https://github.com/xh-dev/BinarySizeUtils</url>
+  <description>BinarySizeUtils contain utility methods for converting binary size unit between byte, kilo byte, mega byte, giga byte, tera byte and peta byte.</description>
+
+  <scm>
+    <connection>scm:git:git://github.com/xh-dev/BinarySizeUtils.git</connection>
+    <developerConnection>scm:git:ssh://github.com:xh-dev/BinarySizeUtils.git</developerConnection>
+    <url>https://github.com/xh-dev/BinarySizeUtils.git</url>
+  </scm>
+
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+
+  <build>
+    <sourceDirectory>src/main/sources</sourceDirectory>
+    <testSourceDirectory>src/test/sources</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>src/test/resources</directory>
+      </testResource>
+    </testResources>
+  </build>
+</project>
