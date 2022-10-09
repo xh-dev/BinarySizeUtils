@@ -1,6 +1,8 @@
 @startuml
 package dev.xethh.utils.BinarySizeUtils{
 class BinarySize{
+  - numOfBytes:BigDecimal;
+
   + {static} ofByte(size:Long):BinarySize
   + {static} ofKiloByte(size:Long):BinarySize
   + {static} ofMegaByte(size:Long):BinarySize
