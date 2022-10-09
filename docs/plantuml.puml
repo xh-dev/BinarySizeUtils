@@ -1,3 +1,21 @@
 @startuml
-Bxx -> XXXX: hello
+package dev.xethh.utils.BinarySizeUtils{
+class BinarySize{
+  + {static} ofByte(size:Long):BinarySize
+  + {static} ofKiloByte(size:Long):BinarySize
+  + {static} ofMegaByte(size:Long):BinarySize
+  + {static} ofGigaByte(size:Long):BinarySize
+  + {static} ofTeraByte(size:Long):BinarySize
+  + {static} ofPetaByte(size:Long):BinarySize
+
+  + inBytes():BigDecimal
+  + inKiloBytes():BigDecimal
+  + inMegaBytes():BigDecimal
+  + inGigaBytes():BigDecimal
+  + inKiloBytes():BigDecimal
+  + inTeraBytes():BigDecimal
+  + readableString():String
+}
+
+}
 @enduml
