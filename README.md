@@ -1,6 +1,6 @@
 # BinarySizeUtils
 
-![UML](http://www.plantuml.com/plantuml/svg/3SJB4G8n203GLhI03NUFjk1O00RSC4D8Xe0VgtVVuPt5gYPnkfvQn5mN0CTtsILQFdAnrs715gME3f-s4R_WAeR-lScFxo6wuCaOwGn8j97WxjY1Hbqm5IsoQvb7Vm00?)
+![UML](http://www.plantuml.com/plantuml/svg/3SJB4G8n203GLhI03NUFjk1O00RSC4D8Xe0VgtVVuPt5gYPnkfvQn5mN0CTtsILQFdAnrs715gME3f-s4R_WAeR-lScFxo6wuCaOwGn8j97WxjY1Hbqm5IsoQvb7Vm00)
 
 ## Maven
 ```xml
