@@ -1,1 +1,3 @@
-Hi->Alice : Hello!
+@startuml
+Bxx -> XXXX: hello
+@enduml
